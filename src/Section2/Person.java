@@ -21,5 +21,12 @@ public class Person {
         this.lastName = lastName;
     }
 
+    public void upperT(String myText) {
+        myText = myText.replace("t","T");
+        System.out.println(myText.strip());
+    }
+
+
+
 
 }
