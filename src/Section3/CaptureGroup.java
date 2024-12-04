@@ -9,8 +9,8 @@ public class CaptureGroup {
         #This is my regex to parse the parts of a phone number
         (?:(?<countryCode>\\d{1,2})[-.,\\s]?)? #Get's country code
         (?:(?<areaCode>\\d{3})[-.,\\s]?) #Cet's area code
-        (?:(?<exchange>\\d{3})[-.,\\s]?)
-        (?<lineNumber>\\d{4})""";
+        (?:(?<exchange>\\d{3})[-.,\\s]?) #Get's exchange code
+        (?<lineNumber>\\d{4}) #Get's line number'""";
         String phoneNumber = "12.232.346.6577";
         System.out.println(phoneNumber.matches(regex));
 
