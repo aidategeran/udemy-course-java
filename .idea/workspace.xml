@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a00712-d47a-4063-8986-663e4b66494b" name="Changes" comment="create captureGroup">
-      <change afterPath="$PROJECT_DIR$/src/Section3/TranscriptParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section3/Exercises/Regex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section3/PeopleMatching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section3/CaptureGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section3/CaptureGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Section3/TranscriptParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section3/TranscriptParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +54,8 @@
     "Application.Car.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.OtherExercises.executor": "Run",
+    "Application.PeopleMatching.executor": "Run",
+    "Application.Regex.executor": "Run",
     "Application.TranscriptParser.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -64,30 +67,17 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/aidategeran/IdeaProjects/udemy-course/src/Main.java",
-    "settings.editor.selected.configurable": "editor.preferences.smartKeys",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.TranscriptParser">
+  <component name="RunManager" selected="Application.Regex">
     <configuration name="CaptureGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Section3.CaptureGroup" />
       <module name="udemy-course" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Section3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Car" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.Car" />
-      <module name="udemy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Section1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +92,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OtherExercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section1.OtherExercises" />
+    <configuration name="PeopleMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section3.PeopleMatching" />
       <module name="udemy-course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section1.*" />
+          <option name="PATTERN" value="Section3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section3.Exercises.Regex" />
+      <module name="udemy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section3.Exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Regex" />
+        <item itemvalue="Application.PeopleMatching" />
         <item itemvalue="Application.TranscriptParser" />
         <item itemvalue="Application.CaptureGroup" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Car" />
-        <item itemvalue="Application.OtherExercises" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +163,7 @@
       <workItem from="1732452283209" duration="15216000" />
       <workItem from="1732931417224" duration="4397000" />
       <workItem from="1733068024473" duration="5000" />
-      <workItem from="1733109281088" duration="15307000" />
+      <workItem from="1733109281088" duration="25365000" />
     </task>
     <task id="LOCAL-00001" summary="create person">
       <option name="closed" value="true" />
@@ -210,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733197122923</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create captureGroup">
+      <option name="closed" value="true" />
+      <created>1733347987545</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733347987545</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
