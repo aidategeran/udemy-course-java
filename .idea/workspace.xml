@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a00712-d47a-4063-8986-663e4b66494b" name="Changes" comment="create captureGroup">
+      <change afterPath="$PROJECT_DIR$/src/Section5/NumericWrapperClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section5/CompoundInterest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section5/CompoundInterest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +55,7 @@
     "Application.Main.executor": "Run",
     "Application.MathStuff.executor": "Run",
     "Application.NumberStuff.executor": "Run",
+    "Application.NumericWrapperClass.executor": "Run",
     "Application.OtherExercises.executor": "Run",
     "Application.PeopleMatching.executor": "Run",
     "Application.Regex.executor": "Run",
@@ -73,7 +74,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CompoundInterest">
+  <component name="RunManager" selected="Application.NumericWrapperClass">
     <configuration name="CalculatingArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Section5.CalculatingArea" />
       <module name="udemy-course" />
@@ -126,12 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Regex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section3.Exercises.Regex" />
+    <configuration name="NumericWrapperClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section5.NumericWrapperClass" />
       <module name="udemy-course" />
+      <option name="PROGRAM_PARAMETERS" value="30" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Section3.Exercises.*" />
+          <option name="PATTERN" value="Section5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumericWrapperClass" />
         <item itemvalue="Application.CompoundInterest" />
         <item itemvalue="Application.NumberStuff" />
         <item itemvalue="Application.MathStuff" />
         <item itemvalue="Application.CalculatingArea" />
-        <item itemvalue="Application.Regex" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +173,7 @@
       <workItem from="1732452283209" duration="15216000" />
       <workItem from="1732931417224" duration="4397000" />
       <workItem from="1733068024473" duration="5000" />
-      <workItem from="1733109281088" duration="67545000" />
+      <workItem from="1733109281088" duration="73414000" />
     </task>
     <task id="LOCAL-00001" summary="create person">
       <option name="closed" value="true" />
@@ -269,7 +271,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734751719351</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="create captureGroup">
+      <option name="closed" value="true" />
+      <created>1735441375610</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735441375610</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,5 +335,10 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/udemy_course$NumericWrapperClass.ic" NAME="NumericWrapperClass Coverage Results" MODIFIED="1735513355293" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Section5.*</FILTER>
+    </SUITE>
   </component>
 </project>
