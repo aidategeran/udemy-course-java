@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a00712-d47a-4063-8986-663e4b66494b" name="Changes" comment="create captureGroup">
-      <change afterPath="$PROJECT_DIR$/src/Section5/NumericWrapperClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section5/NameList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,8 +52,10 @@
     "Application.CaptureGroup.executor": "Run",
     "Application.Car.executor": "Run",
     "Application.CompoundInterest.executor": "Run",
+    "Application.Exercises.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MathStuff.executor": "Run",
+    "Application.NameList.executor": "Run",
     "Application.NumberStuff.executor": "Run",
     "Application.NumericWrapperClass.executor": "Run",
     "Application.OtherExercises.executor": "Run",
@@ -74,20 +76,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumericWrapperClass">
-    <configuration name="CalculatingArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section5.CalculatingArea" />
-      <module name="udemy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Section5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NameList">
     <configuration name="CompoundInterest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Section5.CompoundInterest" />
       <module name="udemy-course" />
@@ -101,8 +90,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathStuff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section5.MathStuff" />
+    <configuration name="Exercises" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section5.Exercises" />
+      <module name="udemy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section5.NameList" />
       <module name="udemy-course" />
       <extension name="coverage">
         <pattern>
@@ -143,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NameList" />
+        <item itemvalue="Application.Exercises" />
         <item itemvalue="Application.NumericWrapperClass" />
         <item itemvalue="Application.CompoundInterest" />
         <item itemvalue="Application.NumberStuff" />
-        <item itemvalue="Application.MathStuff" />
-        <item itemvalue="Application.CalculatingArea" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +175,7 @@
       <workItem from="1732452283209" duration="15216000" />
       <workItem from="1732931417224" duration="4397000" />
       <workItem from="1733068024473" duration="5000" />
-      <workItem from="1733109281088" duration="73414000" />
+      <workItem from="1733109281088" duration="87815000" />
     </task>
     <task id="LOCAL-00001" summary="create person">
       <option name="closed" value="true" />
@@ -279,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735441375610</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="create captureGroup">
+      <option name="closed" value="true" />
+      <created>1735522541370</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735522541370</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
