@@ -23,7 +23,10 @@ public class NameList {
 
     public String next(){
         if (currentIndex < names.length){
-            return names[currentIndex++];
+            String name = names[currentIndex];
+            String capitalized = name.substring(0,1).toUpperCase()+name.substring(1);
+            currentIndex++;
+            return capitalized;
         } else {
             return "No more names";
         }
