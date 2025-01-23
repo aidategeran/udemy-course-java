@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a00712-d47a-4063-8986-663e4b66494b" name="Changes" comment="create captureGroup">
+      <change afterPath="$PROJECT_DIR$/src/Section6/PatternMatching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Section6/GuessItLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section6/GuessItLoop.java" afterDir="false" />
     </list>
@@ -64,6 +65,7 @@
     "Application.NumberStuff.executor": "Run",
     "Application.NumericWrapperClass.executor": "Run",
     "Application.OtherExercises.executor": "Run",
+    "Application.PatternMatching.executor": "Run",
     "Application.PeopleMatching.executor": "Run",
     "Application.Regex.executor": "Run",
     "Application.SwitchStatement.executor": "Run",
@@ -79,30 +81,17 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/aidategeran/IdeaProjects/udemy-course/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.editor.code.editing",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GuessItLoop">
+  <component name="RunManager" selected="Application.PatternMatching">
     <configuration name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Section6.BlackJack" />
       <module name="udemy-course" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Section6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercises2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section5.Exercises2" />
-      <module name="udemy-course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Section5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,6 +125,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PatternMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section6.PatternMatching" />
+      <module name="udemy-course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Section6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwitchStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Section6.SwitchStatement" />
       <module name="udemy-course" />
@@ -151,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PatternMatching" />
         <item itemvalue="Application.GuessItLoop" />
         <item itemvalue="Application.BlackJack" />
         <item itemvalue="Application.SwitchStatement" />
         <item itemvalue="Application.GuessIt" />
-        <item itemvalue="Application.Exercises2" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +183,7 @@
       <workItem from="1732452283209" duration="15216000" />
       <workItem from="1732931417224" duration="4397000" />
       <workItem from="1733068024473" duration="5000" />
-      <workItem from="1733109281088" duration="141179000" />
+      <workItem from="1733109281088" duration="145429000" />
     </task>
     <task id="LOCAL-00001" summary="create person">
       <option name="closed" value="true" />
@@ -335,7 +337,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737486055603</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="create captureGroup">
+      <option name="closed" value="true" />
+      <created>1737572680628</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1737572680628</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
