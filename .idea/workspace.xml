@@ -186,7 +186,7 @@
       <workItem from="1733068024473" duration="5000" />
       <workItem from="1733109281088" duration="147128000" />
       <workItem from="1737735944264" duration="186000" />
-      <workItem from="1737736138253" duration="9977000" />
+      <workItem from="1737736138253" duration="15236000" />
     </task>
     <task id="LOCAL-00001" summary="create person">
       <option name="closed" value="true" />
@@ -364,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737742345612</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="create captureGroup">
+      <option name="closed" value="true" />
+      <created>1737854879791</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1737854879791</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
