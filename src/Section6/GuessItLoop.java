@@ -1,5 +1,7 @@
 package Section6;
 
+import java.time.DayOfWeek;
+import java.time.LocalDate;
 import java.util.Random;
 
 public class GuessItLoop {
@@ -36,14 +38,16 @@ public class GuessItLoop {
                     System.out.printf("The random number was %d. You got it in %d %s!%n", randomNum, wrongGuessCount, tryText);
                     break;
                 } else {
-                    System.out.println("You didn't get it");
+                        System.out.println("You didn't get it");
+                    }
+
                 }
             }
-        }
 //        } while (!"q".equals(guessedNumText) && wrongGuessCount <= MAX_ALLOWED_TRIED);
-        if (wrongGuessCount >= MAX_ALLOWED_TRIED) {
-            System.out.printf("You've had %d incorrect guesses. The random number is %d. You ending now!%n", wrongGuessCount, randomNum);
+            if (wrongGuessCount >= MAX_ALLOWED_TRIED) {
+                System.out.printf("You've had %d incorrect guesses. The random number is %d. You ending now!%n", wrongGuessCount, randomNum);
+            }
         }
+
     }
 
-}
