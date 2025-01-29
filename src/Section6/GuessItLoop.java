@@ -34,6 +34,7 @@ public class GuessItLoop {
             if (guessedNumText.matches("-?\\d{1,3}")) {
                 int guessedNum = Integer.parseInt(guessedNumText);
                 if (guessedNum == randomNum) {
+                    // ternary operator
                     String tryText = wrongGuessCount == 1 ? "try" : "tries";
                     System.out.printf("The random number was %d. You got it in %d %s!%n", randomNum, wrongGuessCount, tryText);
                     break;
