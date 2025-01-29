@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="70a00712-d47a-4063-8986-663e4b66494b" name="Changes" comment="create captureGroup">
-      <change afterPath="$PROJECT_DIR$/src/Section6/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Section6/Exercise2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Section6/GuessItLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section6/GuessItLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Section6/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Section6/Exercise1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     "Application.Car.executor": "Run",
     "Application.CompoundInterest.executor": "Run",
     "Application.Exercise1.executor": "Run",
+    "Application.Exercise2.executor": "Run",
     "Application.Exercises.executor": "Run",
     "Application.Exercises2.executor": "Run",
     "Application.ForLoopExample.executor": "Run",
@@ -89,9 +90,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Exercise1">
-    <configuration name="BlackJack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section6.BlackJack" />
+  <component name="RunManager" selected="Application.Exercise2">
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section6.Exercise1" />
       <module name="udemy-course" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Section6.Exercise1" />
+    <configuration name="Exercise2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Section6.Exercise2" />
       <module name="udemy-course" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise2" />
         <item itemvalue="Application.Exercise1" />
         <item itemvalue="Application.ForLoopExample" />
         <item itemvalue="Application.GuessItLoop" />
         <item itemvalue="Application.PatternMatching" />
-        <item itemvalue="Application.BlackJack" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +190,7 @@
       <workItem from="1733068024473" duration="5000" />
       <workItem from="1733109281088" duration="147128000" />
       <workItem from="1737735944264" duration="186000" />
-      <workItem from="1737736138253" duration="25938000" />
+      <workItem from="1737736138253" duration="31862000" />
     </task>
     <task id="LOCAL-00001" summary="create person">
       <option name="closed" value="true" />
@@ -391,7 +392,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738028518798</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="create captureGroup">
+      <option name="closed" value="true" />
+      <created>1738113686675</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1738113686675</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
