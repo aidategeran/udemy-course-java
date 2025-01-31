@@ -52,8 +52,7 @@ public class Exercise2 {
                 dayName = "Wednesday";
                 break;
             case 4:
-                dayName = "Tuesday";
-                break;
+                dayName = "Thursday";
             case 5:
                 dayName = "Friday";
                 break;
