@@ -2,7 +2,7 @@ package Section6;
 
 public class Exercise2 {
     public static void main(String[] args) {
-        String[] weeks = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
+//        String[] weeks = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
 //        int i = 0;
 
         // While loop
@@ -37,9 +37,36 @@ public class Exercise2 {
 //            }
 
         // Switch case
-        switch () {
-
+        String dayOfTheWeekText = null;
+        dayOfTheWeekText = System.console().readLine("Please put a number from 1 to 7 to know the day name of the week: ");
+        int dayOfTheWeekNum = Integer.parseInt(dayOfTheWeekText);
+        String dayName;
+        switch (dayOfTheWeekNum) {
+            case 1:
+                dayName = "Monday";
+                break;
+            case 2:
+                dayName = "Tuesday";
+                break;
+            case 3:
+                dayName = "Wednesday";
+                break;
+            case 4:
+                dayName = "Tuesday";
+                break;
+            case 5:
+                dayName = "Friday";
+                break;
+            case 6:
+                dayName = "Saturday";
+                break;
+            case 7:
+                dayName = "Sunday";
+            default:
+                dayName = "Invalid day";
         }
+        System.out.println(dayName);
+
 
 
 
